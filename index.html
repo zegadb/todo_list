@@ -4,18 +4,21 @@
         <title>To-Do List</title>
         <meta charset="UTF-8">
         <link href="style.css" rel="stylesheet">
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
     </head>
     <body>
         <div class="card">
             <div class="yellow-line"></div>
             <p class="heading">To-Do List</p>
-            <img class="sort" src="images/downgray.svg" alt="img">
+            <button class="sort"><img src="images/downgray.svg" alt="img"></button>
             <div class="input-area">
                 <input type="text">
-                <img class="delete" src="images/delete.svg" alt="img">
+                <button class="delete"><img src="images/delete.svg" alt="img"></button>
             </div>
-            <button class="add"><img class="add-button" src="images/add.svg" alt="img"></button>
+            <button class="add-button">
+                <div class="plus"><p>+</p></div>
+                <p class="add-text">Добавить</p>
+            </button>
         </div>
     </body>
 </html>
